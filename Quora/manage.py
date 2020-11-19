@@ -3,10 +3,13 @@
 import os
 import sys
 
+# Made by Devang and Kshitij
+# Kshitij: kshitijsabale14@gmail.com
+# Devang: risingentropy20@gmail.com
 
 def main():
     """Run administrative tasks."""
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Quora.settings')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'david.settings')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
