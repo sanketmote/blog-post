@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<title>Login Page</title>
+</head>
+<body>
+	<h1>Login Page</h1>
+    <form action="" method="post">
+    	{% csrf_token %}
+    	<label for="email">Enter Email Id: </label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="password">Type Password: </label>
+        <input type="password" name="pasword" id="password" required>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
